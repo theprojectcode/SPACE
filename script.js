@@ -11,5 +11,12 @@ function permutation(a,b,c,d){
   g[b].style.color = 
   g[c].style.color ="#fff7";
   document.querySelector('header').innerHTML = d;
+  g[a].style.animationName="bubble";
+  g[b].style.animationName =
+  g[c].style.animationName=undefined;
+  h[a].style.animationName = "slide";
+  h[b].style.animationName =
+  h[c].style.animationName = undefined;
+  
 }
 

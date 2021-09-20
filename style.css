@@ -25,7 +25,10 @@ div{
   height: 86%;
   width: 90%;
 }
+
 div,h1{overflow:scroll;}
+
+h1,h4,header{animation: 0.2s;}
 
 .B,.C{display:none;}
 
@@ -63,3 +66,13 @@ h4{
   color: #fff7;
 }
 h4:nth-of-type(1){color: #fff}
+
+@keyframes bubble{
+  0%{transform:scale(0.9)}
+}
+@keyframes slide{
+  0%{
+    opacity: 0;
+    transform: scaleX(0) translateY(100%);
+  }
+}
