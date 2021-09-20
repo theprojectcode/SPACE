@@ -1,6 +1,6 @@
 // displays newer content without moving pages
 
-var g = document.querySelectorAll('h3');
+var g = document.querySelectorAll('h4');
 var h = document.querySelectorAll('h1');
 
 function permutation(a,b,c,d){

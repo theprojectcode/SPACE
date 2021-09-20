@@ -6,6 +6,7 @@
     <meta name="theme-color" content="#1f1f1f" />
     <title>SPACE</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <header>HOME</header>
@@ -25,13 +26,25 @@
       </h1>
       
       <h1 class="C" align="center">S.P.A.C.E. v1 <br>A Single Page Application Core Emulator Framework without NodeJS. <br><br>
-      <a href="https://github.com/n-ce/SPACE"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github" /></a>
+      <a href="https://github.com/n-ce/SPACE">
+        <i class="fab fa-github"></i>
+      </a>
       </h1>
     </div>
+    
     <footer>
-      <h3 onclick="permutation(0,1,2,'Home')">Home</h3>
-      <h3 onclick="permutation(1,0,2,'Apps')">Apps</h3>
-      <h3 onclick="permutation(2,1,0,'About')">About</h3>
+      <h4 onclick="permutation(0,1,2,'Home')">
+        <i class="fas fa-home"></i>
+        <p>Home</p>
+      </h4>
+      <h4 onclick="permutation(1,0,2,'Apps')">
+        <i class="fas fa-th"></i>
+        <p>Apps</p>
+      </h4>
+      <h4 onclick="permutation(2,1,0,'About')">
+        <i class="fas fa-info-circle"></i>
+        <p>About</p>
+      </h4>
     </footer>
     <script src="script.js"></script>
   </body>
